@@ -1,0 +1,132 @@
+.admin-feedback-page {
+    min-height: 100vh;
+
+    background-color: #f8f8f8;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.admin-feedback-container {
+    width: 900px;
+
+    background-color: white;
+
+    padding: 40px 22px 25px;
+
+    border-radius: 8px;
+
+    box-shadow: 0 2px 14px rgba(0, 0, 0, 0.10);
+}
+
+.admin-feedback-container h1 {
+    text-align: center;
+
+    font-size: 27px;
+
+    margin-top: 0;
+    margin-bottom: 24px;
+
+    color: #222;
+}
+
+.admin-feedback-container table {
+    width: 100%;
+
+    border-collapse: collapse;
+
+    font-size: 14px;
+}
+
+.admin-feedback-container th,
+.admin-feedback-container td {
+    border: 1px solid #d3d3d3;
+
+    padding: 10px;
+
+    text-align: left;
+
+    vertical-align: middle;
+}
+
+.admin-feedback-container th {
+    background-color: #eeeeee;
+
+    font-weight: bold;
+}
+
+/* ID */
+.admin-feedback-container th:first-child {
+    width: 45px;
+}
+
+/* Username */
+.admin-feedback-container th:nth-child(2) {
+    width: 110px;
+}
+
+/* Feedback */
+.admin-feedback-container th:nth-child(3) {
+    width: 400px;
+}
+
+/* Date */
+.admin-feedback-container th:nth-child(4) {
+    width: 100px;
+}
+
+/* Actions */
+.admin-feedback-container th:nth-child(5) {
+    width: 180px;
+}
+
+.feedback-text {
+    line-height: 1.3;
+
+    word-break: break-word;
+}
+
+.action-button {
+    background-color: #dddddd;
+
+    border: 1px solid #cccccc;
+
+    border-radius: 4px;
+
+    padding: 6px 10px;
+
+    margin-right: 4px;
+
+    cursor: pointer;
+
+    font-size: 12px;
+
+    color: #333;
+}
+
+.action-button:hover {
+    background-color: #cccccc;
+}
+
+.logout-button {
+    display: block;
+
+    margin: 22px auto 0;
+
+    background: none;
+
+    border: none;
+
+    color: #0000ee;
+
+    text-decoration: underline;
+
+    cursor: pointer;
+
+    font-size: 14px;
+}
+
+.logout-button:hover {
+    color: #551a8b;
+}
