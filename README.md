@@ -61,4 +61,4 @@ Customer-Feedback-System/
 
 ## Purpose
 
-This project demonstrates full-stack application development, REST API integration, authentication, authorization, and database connectivity using Java and React.
+Full-stack application development project, REST API integration, authentication, authorization, and database connectivity using Java and React.
